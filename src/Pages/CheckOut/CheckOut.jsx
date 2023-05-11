@@ -6,7 +6,7 @@ const CheckOut = () => {
     const { title, price, service_id, img } = service;
     return (
         <div>
-            <h2>VBook Service : {title}</h2>
+            <h2>Book Service : {title}</h2>
             <form>
                 <div className="card-body grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div className="form-control">
