@@ -8,6 +8,8 @@ import BookService from "../Pages/BookService/BookService";
 import ErrorPage from "../Pages/ErrorPage/ErrorPage";
 import Bookings from "../Pages/Bookings/Bookings";
 import PrivateRoute from "./PrivateRoutes";
+import Services from "../Pages/Home/Services/Services";
+import ServiceCard from "../Pages/Home/Services/ServiceCard";
 
 const router = createBrowserRouter([
   {
@@ -26,6 +28,14 @@ const router = createBrowserRouter([
       {
         path: '/signup',
         element: <SignUp></SignUp>,
+      },
+      {
+        path: '/service',
+        element: <Services></Services>,
+      },
+      {
+        path: '/servicecard',
+        element: <ServiceCard></ServiceCard>,
       },
       {
         path: '/bookservice/:id',
